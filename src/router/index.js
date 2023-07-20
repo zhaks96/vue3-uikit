@@ -12,6 +12,11 @@ const router = createRouter({
       path: '/button',
       name: 'button',
       component: () => import('@/views/Button.vue')
+    },
+    {
+      path: '/checkbox',
+      name: 'checkbox',
+      component: () => import('@/views/Checkbox.vue')
     }
   ]
 })
